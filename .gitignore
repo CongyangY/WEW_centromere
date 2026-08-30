@@ -1,0 +1,35 @@
+# Raw and intermediate genomics data
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.bcf
+*.bed.gz
+*.nwk
+*.newick
+
+# Generated figures and analysis outputs
+*.pdf
+*.png
+*.svg
+*.tif
+*.jpg
+*.jpeg
+*.RData
+*.rds
+*.Rhistory
+.Rhistory
+.Rproj.user/
+
+# OS/editor files
+.DS_Store
+.Spotlight-V100
+*.swp
