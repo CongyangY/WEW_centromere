@@ -4,6 +4,8 @@ Custom R scripts used for the wild emmer wheat (WEW) centromere, CRW, CentT566, 
 
 An English summary of the BinBash platform WGS workflow is provided in `BinBash_WGS_workflow.md`.
 
+The sanitized genome assembly and annotation workflow is provided in `Genome_assembly_annotation_workflow.md`.
+
 ## Scope
 
 This repository contains analysis scripts only. Large genomic inputs, source tables and generated figures are intentionally excluded. The scripts were preserved from the working analysis directory and grouped by analysis topic; they may require project-specific input files and software packages.
