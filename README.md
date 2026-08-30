@@ -32,12 +32,14 @@ R/
 
 The original scripts use relative paths such as `../data/` and `../figure/`. To reproduce a result, place the required project data and figure directories at the expected relative locations, or adapt the input/output paths in a local copy. The repository does not include raw assemblies, FASTA/BAM/VCF files, large alignment files, or generated PDFs.
 
-The main observed R environment used during preparation was R 4.3.3 with ggplot2 3.5.0 and ape 5.8.1. Package versions required by individual scripts should be checked against their `library()` calls before execution.
+All statistical analyses were conducted in R v4.3.2, as specified in the manuscript Methods. The Methods do not specify exact versions for ggplot2 or ape; package versions required by individual scripts should therefore be checked against the execution environment before reproduction.
 
 ## Data and code availability
 
-The complete raw datasets and intermediate results are available from the authors on reasonable request or through the project data archive. This code repository is intended to document the custom analysis code used for the study.
+Sequencing data generated in the study, including PacBio HiFi, ultra-long ONT, Illumina, RNA-seq and histone ChIP-seq data, are deposited in the National Genomics Data Center under BioProject accession `PRJCA051525`. The genome assembly is available under accession `GWHHHUI00000000.1`.
+
+The genome assembly, annotation files, gene-by-sample TPM matrix and SNP VCF files are archived at Zenodo: [10.5281/zenodo.19882165](https://doi.org/10.5281/zenodo.19882165). This repository contains the custom analysis scripts and is archived separately at Zenodo: [10.5281/zenodo.22177298](https://doi.org/10.5281/zenodo.22177298).
 
 ## License
 
-Add the license selected by the authors before public release.
+No open-source license is specified in the manuscript Methods for this code archive. Reuse, redistribution or modification should follow the authors' terms until a license is added by the authors.
