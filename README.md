@@ -4,7 +4,7 @@ Custom R scripts used for the wild emmer wheat (WEW) centromere, CRW, CentT566, 
 
 ## Scope
 
-This repository contains analysis scripts and a small example/source table. Large genomic inputs and generated figures are intentionally excluded. The scripts were preserved from the working analysis directory and grouped by analysis topic; they may require project-specific input files and software packages.
+This repository contains analysis scripts only. Large genomic inputs, source tables and generated figures are intentionally excluded. The scripts were preserved from the working analysis directory and grouped by analysis topic; they may require project-specific input files and software packages.
 
 ## Directory layout
 
@@ -22,8 +22,6 @@ R/
   run_fisher_for_clusters.R       local-cluster Fisher tests
   solo_LTR.R                      solo-LTR analyses
   supplementary.R                 supplementary-figure analyses
-data_examples/
-  Fig3E_inversion_validation_data.tsv
 ```
 
 ## Reproducibility
